@@ -7,7 +7,7 @@ export const ITEMS = [
 		maxBuyPrice: 60,
 		minSellPrice: 50,
 		maxSellPrice: 90,
-		image: '/images/food.png',
+		image: 'images/food.png',
 	},
 	{
 		name: 'cloth',
@@ -15,7 +15,7 @@ export const ITEMS = [
 		maxBuyPrice: 90,
 		minSellPrice: 80,
 		maxSellPrice: 140,
-		image: '/images/cloth.png',
+		image: 'images/cloth.png',
 	},
 	{
 		name: 'wood',
@@ -23,7 +23,7 @@ export const ITEMS = [
 		maxBuyPrice: 130,
 		minSellPrice: 150,
 		maxSellPrice: 230,
-		image: '/images/wood.png',
+		image: 'images/wood.png',
 	},
 	{
 		name: 'stone',
@@ -31,7 +31,7 @@ export const ITEMS = [
 		maxBuyPrice: 150,
 		minSellPrice: 90,
 		maxSellPrice: 220,
-		image: '/images/stone.png',
+		image: 'images/stone.png',
 	},
 	{
 		name: 'metal',
@@ -39,7 +39,7 @@ export const ITEMS = [
 		maxBuyPrice: 220,
 		minSellPrice: 140,
 		maxSellPrice: 460,
-		image: '/images/metal.png',
+		image: 'images/metal.png',
 	},
 	{
 		name: 'gold',
@@ -47,7 +47,7 @@ export const ITEMS = [
 		maxBuyPrice: 370,
 		minSellPrice: 420,
 		maxSellPrice: 570,
-		image: '/images/gold.png',
+		image: 'images/gold.png',
 	},
 ]
 
