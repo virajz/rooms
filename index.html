@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Trade Rooms</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="stats">
+				<div id="container">
+					<div>
+						Containers:
+						<span id="containerSize"></span>
+					</div>
+					<div class="buttons">
+						<button id="addContainer">Buy - 150</button>
+					</div>
+				</div>
+				<div>
+					Turns left: <span><strong id="turns">25</strong></span>
+				</div>
+				<div id="goal">
+					<div id="money"></div>
+					<div id="goalMoney"></div>
+				</div>
+			</div>
+
+			<div id="center">
+				<section id="city">
+					<div id="items" class="items"></div>
+				</section>
+				<section id="inventory">
+					<div class="items"></div>
+				</section>
+			</div>
+			<nav id="places"></nav>
+		</main>
+		<script type="module" src="main.js"></script>
+	</body>
+</html>
